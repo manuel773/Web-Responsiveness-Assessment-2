@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400&family=Poppins:wght@400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background image: ;url( 'bg-intro-mobile.png');
+    background-color: hsl(0, 100%, 74%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Poppins";
+    color: #ffffff;
+}
+a:hover {
+    text-decoration: none;
+}
+.main-wrapper {
+    padding: 20px;
+}
+.left-side {
+    margin: 10px;
+    text-align: center;
+}
+.left-side > h2 {
+    font-size: 36px;
+    font-weight: 600px;
+}
+.left-side > p {
+
+}
+
+.right-side {
+    margin: 20px 10px;
+}
+
+.trial {
+    background-color: hsl(248, 32%, 49%);
+    border-radius: 8px;
+    margin-bottom: 10px;
+    text-align: center;
+    padding: 10px;
+}
+.trial > a {
+    color: #fff;
+    text-decoration: none;
+   
+}
+
+.form-field {
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.form-input {
+    padding: 10px;
+    margin: 8px auto;
+    border-radius: 8px;
+    font-size: 12px;
+    width: 90%;
+}
+
+#button3 {
+    padding: 10px;
+    background-color: hsl(154, 59%, 51%);
+    color: white;
+    font-size: 15px;
+    letter-spacing: 1.5px;
+    border: none;
+    width: 100%;
+}
+
+.terms {
+    text-align: center;
+    padding: 10px;
+    margin: 8px auto;
+    font-size: 10px;
+    color: #808080;
+}
+.terms > a {
+    color: hsl(0, 64%, 52%);
+}
+
+/* Tablet Screensize */
+@media only screen and (min-width: 600px) {
+   .main-wrapper {
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+       padding: 40px;
+   }
+   .main-wrapper > div {
+       flex: 1;
+   }
+   .left-side {
+    margin: 20px;
+    text-align: left;
+    }
+    .right-side {
+        margin: 20px;
+    }
+}
+
+/* Desktop Screensize */
+@media only screen and (min-width: 768px) {
+    body {
+        background-image: url('bg-intro-desktop.png');
+    }
+    .main-wrapper {
+        padding: 80px;
+    }
+    .left-side > h2 {
+        font-size: 42px;
+    }
+}
